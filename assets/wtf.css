@@ -1,0 +1,89 @@
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 45px;;
+    color: #fff;
+    background: #c5a;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.profile {
+    text-align: center;
+    color: #fff;
+}
+.photo {
+    border-radius: 50%;
+    width: 96px;
+}
+
+.icon {
+    position: absolute;
+    width: 42px;
+    left: 8px;
+    top: 8px;
+}
+
+.profile_name {
+    margin-top: 14px;
+    font-weight: bold;
+    display: block;
+}
+.description {
+    font-size: 14px;
+}
+
+.butt {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding-top: 85px;
+}
+
+
+div-sur {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    border: 2px solid #000;
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    font-size: 14pt;
+    margin-left: 5px;
+    margin-right: 16px;
+}
+
+div-sur:hover {
+    margin-left: 9px;
+    margin-top: 3px;
+    margin-right: 13px;
+}
+div-sur:active     {
+    margin-left: 13px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+div-sha {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    border: 2px solid #000;
+    text-decoration: none;
+    color: #000;
+    background: #000;
+    margin-left: 18px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
