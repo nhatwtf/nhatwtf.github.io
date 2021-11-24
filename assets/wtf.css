@@ -2,7 +2,10 @@ body {
     font-family: Roboto, Helvetica, Arial, sans-serif;
     margin-top: 45px;;
     color: #fff;
-    background: #c5a;
+    background: #101420;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
 }
 
 .wrap {
@@ -13,6 +16,7 @@ body {
 .profile {
     text-align: center;
     color: #fff;
+    font-size: 12pt;
 }
 .photo {
     border-radius: 50%;
@@ -27,19 +31,19 @@ body {
 }
 
 .profile_name {
-    margin-top: 14px;
+    margin-top: 10px;
     font-weight: bold;
     display: block;
 }
 .description {
-    font-size: 14px;
+    font-size: 11pt;
 }
 
 .butt {
     position: relative;
     display: block;
     text-decoration: none;
-    padding-top: 85px;
+    padding-top: 80px;
 }
 
 
@@ -48,14 +52,14 @@ div-sur {
     left: 0px;
     right: 0px;
     top: 0px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     text-align: center;
     border: 2px solid #000;
     text-decoration: none;
     color: #000;
     background: #fff;
-    font-size: 14pt;
+    font-size: 12pt;
     margin-left: 5px;
     margin-right: 16px;
 }
@@ -76,8 +80,8 @@ div-sha {
     left: 0px;
     right: 0px;
     top: 0px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     text-align: center;
     border: 2px solid #000;
     text-decoration: none;
@@ -85,5 +89,5 @@ div-sha {
     background: #000;
     margin-left: 18px;
     margin-right: 5px;
-    margin-top: 15px;
+    margin-top: 12px;
 }
