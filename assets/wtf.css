@@ -6,6 +6,7 @@ body {
     background-image: url("bg.png");
     background-repeat: no-repeat;
     background-position: bottom left;
+    background-attachment: fixed;
 }
 
 .wrap {
@@ -25,8 +26,8 @@ body {
 
 .icon {
     position: absolute;
-    width: 42px;
-    left: 8px;
+    width: 32px;
+    left: 9px;
     top: 8px;
 }
 
