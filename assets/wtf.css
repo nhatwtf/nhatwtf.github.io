@@ -5,8 +5,9 @@ body {
     background: #101420;
     background-image: url("bg.png");
     background-repeat: no-repeat;
-    background-position: bottom left;
+    background-position: bottom right;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .wrap {
