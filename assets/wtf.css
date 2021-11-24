@@ -5,7 +5,7 @@ body {
     background: #101420;
     background-image: url("bg.png");
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: bottom left;
 }
 
 .wrap {
