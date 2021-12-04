@@ -4,10 +4,9 @@ body {
     color: #fff;
     background: #101420;
     background-image: url("bg.png");
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-attachment: fixed;
-    background-size: cover;
+    background-repeat: repeat-x;
+  	background-attachment: fixed;
+  	background-size: contain;
 }
 
 .wrap {
@@ -27,9 +26,9 @@ body {
 
 .icon {
     position: absolute;
-    width: 32px;
+    width: 30px;
     left: 9px;
-    top: 8px;
+    top: 9px;
 }
 
 .profile_name {
@@ -46,6 +45,16 @@ body {
     display: block;
     text-decoration: none;
     padding-top: 80px;
+}
+
+.footlink {
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 40px;
+}
+
+.footlink:hover {
+	transform: scale(1.1)
 }
 
 
